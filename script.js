@@ -7,5 +7,5 @@ button.addEventListener('click',  function () {
     notif.innerText = "Some information";
     toasts.appendChild(notif); 
 
-    setTimeout( () => notif.remove(), 2000 );
+    setTimeout( () => notif.remove(), 4000 );
 });
